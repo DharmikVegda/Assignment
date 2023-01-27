@@ -1,0 +1,52 @@
+body{
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ebecf0;
+    align-items: center;
+}
+
+.left-main-image{
+    display: flex;
+    align-items: center;
+}
+
+.left-main-image img{
+    border: 15px solid white;
+    margin-top: 15px;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    /* flex-shrink: 2; */
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+input{
+    width: 60%;
+    padding: 5px;
+    border: 2px solid #ADADAD;
+    border-radius: 5px;
+}
+
+.forgot-password{
+    width: 60%;
+}
+
+.forgot-password a{
+    margin-top: 13px;
+    display: inline;
+    text-decoration: none;
+    font-size: 1rem;
+}
