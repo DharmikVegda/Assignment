@@ -40,6 +40,7 @@ body{
 .view{
     float: right;
     margin-top: 10px;
+    margin-right: 1.25rem;
 }
 
 th{
@@ -81,5 +82,5 @@ div span{
 }
 
 .dash-background{
-    background-color: rgba(200, 36, 47,.2);
+    background-color: rgba(200, 36, 47,.1);
 }
