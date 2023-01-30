@@ -41,12 +41,6 @@
     margin-right: 5px;
 }
 
-.view-all-data{
-    float: right;
-    margin-top: 10px;
-    margin-right: 1.25rem;
-}
-
 th{
     color: #949494;
 }
@@ -87,4 +81,8 @@ div span{
 
 .dash-background{
     background-color: rgba(200, 36, 47,.1);
+}
+
+@media screen and (max-width: 355px){
+    .profile-name{ display: none; }
 }
