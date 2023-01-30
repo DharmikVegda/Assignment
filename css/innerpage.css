@@ -1,6 +1,6 @@
-body{
-    margin: 0rem;
-    padding: 0rem;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,26 +10,68 @@ h3{
 }
 
 i img{
-    width: 35px;
+    width: 25px;
 }
 
 div span{
-    font-size: 1rem;
+    font-size: 12px;
 }
 
-.sidebar-first-row-item{
-    margin-top: 1rem;
-    margin-left: 6px;
-}
-
-.dash-background{
-    background-color: rgba(200, 36, 47,.1);
-}
-
-textarea{
-    margin-left: 12px;
+#sidebar-analysis{
+    background-color: rgb(255, 53, 53,0.1);
 }
 
 #username{
     margin-left: 12px;
 }
+
+.three-row
+{
+    margin-left: -1px;
+}
+
+.column-3{
+    margin-left: -8px;
+}
+
+.snackbar-error{
+    border: 1px solid #FF3535;
+}
+
+.snackbar-warning{
+    border: 1px solid #FFA800;
+}
+
+.snackbar-info{
+    border: 1px solid #00B9E1;
+}
+
+.snackbar-success{
+    border: 1px solid #00AF27;
+}
+
+.btn .btn-danger{
+    border-radius: 50%;
+}
+
+.icon img{
+    width: 20px;
+}
+
+nav ul li{
+    margin-bottom: -1.4rem;
+}
+
+.upload-file{
+    border: 1px solid red;
+}
+
+.form-check-input:checked{
+    background-color: red;
+    border-color: red;
+}
+
+input[type='checkbox']{
+    background-image: url("../images/check-icon.svg");
+}
+
