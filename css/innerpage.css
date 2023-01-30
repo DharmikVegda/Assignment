@@ -63,8 +63,17 @@ div span{
     border-style: dashed;
 }
 
-nav ul li{
-    margin-bottom: -1.4rem;
+nav{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+nav ul #first-tab{
+    border-bottom: 2px solid red;
+}
+
+.nav-tabs{
+    margin-bottom: -2px;
 }
 
 .upload-file{
