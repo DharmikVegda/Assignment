@@ -58,6 +58,11 @@ div span{
     width: 20px;
 }
 
+
+.dashed-border {
+    border-style: dashed;
+}
+
 nav ul li{
     margin-bottom: -1.4rem;
 }
