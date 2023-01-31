@@ -16,6 +16,21 @@
     min-width: 300px;
 }
 
+.assesment-row .weekly {
+    font-size: 12px;
+    color: #ADADAD;
+}
+
+.assesment-row .monthy {
+    font-size: 12px;
+    color: #ADADAD;
+}
+
+.assesment-row .yearly {
+    font-size: 12px;
+    color: #C8242F;
+}
+
 .pie-chart-img{
     width: 15vw;
     min-width: 150px;

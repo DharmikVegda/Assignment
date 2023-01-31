@@ -11,58 +11,58 @@
 </head>
 
 <body style="background-color: white;">
-    <div class="main-container container-fuid w-auto h-auto" style="background-color: white;">
+    <div class="main-container container-fuid" style="background-color: white;">
         <div class="row flex-nowrap">
-            <div id="sidebar" class="col-auto ms-2">
+            <nav id="sidebar" class="col-auto ms-2 navbar navbar-expand-lg flex-column justify-content-start">
                 <div class="row-auto d-flex justify-content-start align-items-center flex-row mt-3 ms-3">
                     <img src="images/menu-bar.svg" alt="menubar" id="menubar" type="button" data-bs-toggle="collapse"
                         data-bs-target=".toggle-elements" aria-expanded="false" aria-controls="toggle-elements">
-                    <div class="ps-2 sidebar-logo toggle-elements"> <img src="images/logo.svg" alt="logo" width="125px">
+                    <div class="ps-2 sidebar-logo collapse navbar-collapse toggle-elements"> <img src="images/logo.svg" alt="logo" width="125px">
                     </div>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-5 mb-2 dash-background">
+        
+                <div class="d-flex align-items-center ms-3 mt-5 mb-2 dash-background ps-2 w-75">
                     <i class="sidebar-icon"> <img src="images/dashboard-active.svg" alt="dashboard-active"> </i>
-                    <span id="sidebar-dashboard-text" class="m-1 sidebar-deshboard text-danger toggle-elements">
+                    <span id="sidebar-dashboard-text" class="m-1 sidebar-deshboard text-danger toggle-elements collapse navbar-collapse">
                         Dashboard</span>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-1 mb-2">
+        
+                <div class="d-flex align-items-center ms-3 mt-1 mb-2 ps-2 w-75">
                     <i class="sidebar-icon"> <img src="images/graph-default.svg" alt="dashboard-active"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-analysis-text" class="m-1 toggle-elements"> Analysis</span>
+                    <span id="sidebar-analysis-text" class="m-1 toggle-elements collapse navbar-collapse"> Analysis</span>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/inbox-default.svg" alt="dashboard-active"
+        
+                <div class="d-flex align-items-center ms-3 mt-1 mb-2 ps-2 w-75">
+                    <i class="sidebar-icon"> <img src="images/inbox-default.svg" alt="inbox-default"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-inbox-text" class="m-1 toggle-elements"> inbox</span>
+                    <span id="sidebar-inbox-text" class="m-1 toggle-elements collapse navbar-collapse"> inbox</span>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/clock-default.svg" alt="dashboard-active"
+        
+                <div class="d-flex align-items-center ms-3 mt-1 mb-2 ps-2 w-75">
+                    <i class="sidebar-icon"> <img src="images/clock-default.svg" alt="histroy-default"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-histroy-text" class="m-1 toggle-elements"> History</span>
+                    <span id="sidebar-histroy-text" class="m-1 toggle-elements collapse navbar-collapse"> History</span>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"><img src="images/user-default.svg" alt="dashboard-active"
+        
+                <div class="d-flex align-items-center ms-3 mt-1 mb-2 ps-2 w-75">
+                    <i class="sidebar-icon"><img src="images/user-default.svg" alt="users-default"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-user-text" class="m-1 toggle-elements"> Users</span>
+                    <span id="sidebar-user-text" class="m-1 toggle-elements collapse navbar-collapse"> Users</span>
                 </div>
-
-                <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/maintenance-default.svg" alt="dashboard-active"
+        
+                <div class="d-flex align-items-center ms-3 mt-1 mb-2 ps-2 w-75">
+                    <i class="sidebar-icon"> <img src="images/maintenance-default.svg" alt="maintance-default"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-maintance-text" class="m-1 toggle-elements"> Maintance</span>
+                    <span id="sidebar-maintance-text" class="m-1 toggle-elements collapse navbar-collapse"> Maintance</span>
                 </div>
-
-                <div class="align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/setting-default.svg" alt="dashboard-active"
+        
+                <div class="align-items-center ms-3 mt-1 mb-2 d-flex flex-nowrap ps-2 w-75">
+                    <i class="sidebar-icon"> <img src="images/setting-default.svg" alt="settings-default"
                             class="m-1 sidebar-icon"> </i>
-                    <span id="sidebar-setting-text" class="m-1 toggle-elements"> Settings</span>
+                    <span id="sidebar-setting-text" class="m-1 toggle-elements collapse navbar-collapse"> Settings</span>
                 </div>
-            </div>
+            </nav>
             <div class="col-auto col-sm-11 col-md-10">
                 <div class="d-flex row pt-1 align-items-center mt-1 mb-2 pe-2">
                     <div class="col-auto ms-1"> <img src="images/search-icon.svg" alt="search-icon" width="25px"> </div>
@@ -160,10 +160,10 @@
                                     <div class="fs-3 fw-bold">sales</div>
                                 </div>
                                 <div class="col-auto col-lg-6 col-md-6 d-flex align-items-center justify-content-end">
-                                    <div class="row justify-content-end">
-                                        <div class="col-auto">weekly</div>
-                                        <div class="col-auto">monthy</div>
-                                        <div class="col-auto border-bottom border-danger pb-2 ps-0 pe-0 ms-2">yearly</div>
+                                    <div class="row justify-content-end assesment-row">
+                                        <div class="col-auto weekly">weekly</div>
+                                        <div class="col-auto monthy">monthy</div>
+                                        <div class="col-auto yearly border-bottom border-danger pb-2">yearly</div>
                                     </div>
                                 </div>
                             </div>
@@ -197,7 +197,9 @@
                         <div class="col d-flex flex-row-reverse pe-4">view all</div>
                     </div>
 
-                    <div class="row d-flex justify-content-center align-items-center ms-1 table-responsive">
+                    <div class="row d-flex justify-content-center align-items-center ms-1">
+                        <div class="table-responsive">
+
                         <table class="table bg-white">
                             <tr>
                                 <th>invoice</th>
@@ -281,6 +283,8 @@
                             </tr>
                         </table>
                     </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,12 +295,6 @@
 <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
     crossorigin="anonymous"></script>
 <script>
-    $('#menubar').click();
-    setTimeout(() => {
-        if ($(window).width() < 736) {
-            $('#menubar').click();
-        }
-    }, 500);
 </script>
 
 </html>

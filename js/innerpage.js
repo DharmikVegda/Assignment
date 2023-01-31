@@ -3,7 +3,6 @@ function openfile() {
     input.type = 'file';
     input.click();
 }
-$('#menubar').click();
 setTimeout(() => {
     if ($(window).width() < 570) {
         $('#menubar').click();
