@@ -36,18 +36,22 @@ div span{
 
 .snackbar-error{
     border: 1px solid #FF3535;
+    border-radius: 5px;
 }
 
 .snackbar-warning{
     border: 1px solid #FFA800;
+    border-radius: 5px;
 }
 
 .snackbar-info{
     border: 1px solid #00B9E1;
+    border-radius: 5px;
 }
 
 .snackbar-success{
     border: 1px solid #00AF27;
+    border-radius: 5px;
 }
 
 .btn .btn-danger{

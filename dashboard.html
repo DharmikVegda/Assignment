@@ -13,151 +13,179 @@
 <body style="background-color: white;">
     <div class="main-container container-fuid w-auto h-auto" style="background-color: white;">
         <div class="row flex-nowrap">
-            <div id="sidebar" class="col-auto">
-                <div class="row-auto d-flex justify-content-start align-items-center flex-row mt-3">
-                    <img src="images/menu-bar.svg" alt="menubar" id="menubar" type="button" data-bs-toggle="collapse" data-bs-target=".toggle-elements" aria-expanded="false" aria-controls="toggle-elements">
-                    <div class="ps-2 sidebar-logo toggle-elements"> <img src="images/logo.svg" alt="logo" width="125px"> </div>
+            <div id="sidebar" class="col-auto ms-2">
+                <div class="row-auto d-flex justify-content-start align-items-center flex-row mt-3 ms-3">
+                    <img src="images/menu-bar.svg" alt="menubar" id="menubar" type="button" data-bs-toggle="collapse"
+                        data-bs-target=".toggle-elements" aria-expanded="false" aria-controls="toggle-elements">
+                    <div class="ps-2 sidebar-logo toggle-elements"> <img src="images/logo.svg" alt="logo" width="125px">
+                    </div>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-5 mb-2 dash-background">
                     <i class="sidebar-icon"> <img src="images/dashboard-active.svg" alt="dashboard-active"> </i>
-                    <span id="sidebar-dashboard-text" class="m-1 sidebar-deshboard text-danger toggle-elements"> Dashboard</span>
+                    <span id="sidebar-dashboard-text" class="m-1 sidebar-deshboard text-danger toggle-elements">
+                        Dashboard</span>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/graph-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"> <img src="images/graph-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-analysis-text" class="m-1 toggle-elements"> Analysis</span>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/inbox-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"> <img src="images/inbox-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-inbox-text" class="m-1 toggle-elements"> inbox</span>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/clock-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"> <img src="images/clock-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-histroy-text" class="m-1 toggle-elements"> History</span>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"><img src="images/user-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"><img src="images/user-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-user-text" class="m-1 toggle-elements"> Users</span>
                 </div>
 
                 <div class="d-flex align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/maintenance-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"> <img src="images/maintenance-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-maintance-text" class="m-1 toggle-elements"> Maintance</span>
                 </div>
 
                 <div class="align-items-center ms-3 mt-1 mb-2">
-                    <i class="sidebar-icon"> <img src="images/setting-default.svg" alt="dashboard-active" class="m-1 sidebar-icon"> </i>
+                    <i class="sidebar-icon"> <img src="images/setting-default.svg" alt="dashboard-active"
+                            class="m-1 sidebar-icon"> </i>
                     <span id="sidebar-setting-text" class="m-1 toggle-elements"> Settings</span>
                 </div>
             </div>
             <div class="col-auto col-sm-11 col-md-10">
-                <div class="d-flex row pt-1 align-items-center">
-                    <div class="col-auto ms-1"> <img src="images/search-icon.svg" alt="search-icon" width="30px"> </div>
+                <div class="d-flex row pt-1 align-items-center mt-1 mb-2 pe-2">
+                    <div class="col-auto ms-1"> <img src="images/search-icon.svg" alt="search-icon" width="25px"> </div>
                     <div class="col-auto">search</div>
                     <div class="col">
                         <div class="row align-items-center flex-row justify-content-end">
                             <div class="col-auto"> <img src="images/notification-icon.svg" alt="notification-icon"></div>
                             <div class="col-auto"> <img src="images/profile.png" alt="profile"></div>
-                            <div class="col-auto profile-name">John Deo</div>
+                            <div class="col-auto profile-name">John Doe</div>
                             <div class="col-auto"> <img src="images/downward-arrow.svg" alt="downward-arrow"></div> 
                         </div>
                     </div>
                 </div>
-                <div class="row" style="background-color: #ebecf0;">
-                    <h1 class="pt-5 ps-2 pb-2">Dashboard</h1>
-                    <div class="row w-100">
-                        <div class="col bg-white m-2 ms-3 pt-2 pb-2">
+                <div class="row dashboard-container">
+                    <h1 class="ms-1">Dashboard</h1>
+                    <div class="row w-100 ms-1">
+                        <div class="col bg-white p-3 m-2 ms-0">
                             <div class="row flex-nowrap">
                                 <div class="col-auto"> <img src="images/star.svg" alt="star"> </div>
                                 <div class="col">
-                                    <div class="row fw-bold"><p class="d-inline-block m-0 ps-0">23,456</p></div>
-                                    <div class="row"><p class="d-inline-block m-0 ps-0">New Products</p></div>
+                                    <div class="row fw-bold">
+                                        <p class="d-inline-block m-0 ps-0">23,456</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="d-inline-block m-0 ps-0">New Products</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col bg-white p-3 m-2">
                             <div class="row flex-nowrap">
                                 <div class="col-auto"> <img src="images/new-product.svg" alt="new-product"> </div>
                                 <div class="col">
-                                    <div class="row fw-bold"><p class="d-inline-block m-0 ps-0">2345</p></div>
-                                    <div class="row"><p class="d-inline m-0 ps-0">Added Products</p></div>
+                                    <div class="row fw-bold">
+                                        <p class="d-inline-block m-0 ps-0">2345</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="d-inline m-0 ps-0">Added Products</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col bg-white p-3 m-2">
                             <div class="row  flex-nowrap">
-                                <div class="col-auto"> <img src="images/total-product.svg" alt="total-product" width="50px">
+                                <div class="col-auto"> <img src="images/total-product.svg" alt="total-product"
+                                        width="50px">
                                 </div>
                                 <div class="col">
-                                    <div class="row fw-bold"><p class="d-inline-block m-0 ps-0">32,456</p></div>
-                                    <div class="row"><p class="d-inline m-0 ps-0">Total Products</p></div>
+                                    <div class="row fw-bold">
+                                        <p class="d-inline-block m-0 ps-0">32,456</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="d-inline m-0 ps-0">Total Products</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col bg-white p-3 m-2">
                             <div class="row flex-nowrap">
                                 <div class="col-auto"> <img src="images/money-bag.svg" alt="today-sales"> </div>
                                 <div class="col">
-                                    <div class="row fw-bold"><p class="d-inline-block m-0 ps-0">5678</p></div>
-                                    <div class="row"><p class="d-inline m-0 ps-0">Today's Sale</p></div>
+                                    <div class="row fw-bold">
+                                        <p class="d-inline-block m-0 ps-0">5678</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="d-inline m-0 ps-0">Today's Sale</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col p-2 bg-white m-2 me-3 pt-2 pb-2">
+                        <div class="col p-2 bg-white p-3 m-2">
                             <div class="row flex-nowrap">
                                 <div class="col-auto"> <img src="images/dollar-filled.svg" alt="total-sales"> </div>
                                 <div class="col">
-                                    <div class="row fw-bold"><p class="d-inline-block m-0 ps-0">33,5342</p></div>
-                                    <div class="row"><p class="d-inline-block m-0 ps-0">Total Sale</p></div>
+                                    <div class="row fw-bold">
+                                        <p class="d-inline-block m-0 ps-0">33,5342</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="d-inline-block m-0 ps-0">Total Sale</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div class="row mt-4 d-flex justify-content-center align-items-center">
-                        <div class="col w-auto ms-3 bg-white mb-3">
-                            <div class="row mb-2 mt-1 p-1">
-                                <div class="col-auto col-lg-6 col-md-6 d-flex align-items-center">
+                    <div class="row mt-4 justify-content-between align-items-center">
+                        <div class="col-auto ms-3 ps-3 pe-3 bg-white mb-3 mb-md-auto">
+                            <div class="row mb-4 mt-1 p-1 align-items-center">
+                                <div class="col-auto col-lg-6 col-md-6">
                                     <div class="fs-3 fw-bold">sales</div>
                                 </div>
                                 <div class="col-auto col-lg-6 col-md-6 d-flex align-items-center justify-content-end">
-                                    <div class="row justify-content-end assesment">
+                                    <div class="row justify-content-end">
                                         <div class="col-auto">weekly</div>
                                         <div class="col-auto">monthy</div>
-                                        <div class="col-auto text-decoration-underline text-danger">yearly</div>
+                                        <div class="col-auto border-bottom border-danger pb-2 ps-0 pe-0 ms-2">yearly</div>
                                     </div>
                                 </div>
                             </div>
                             <img src="images/data-graph.png" alt="data-graph" class="graph-image mb-1">
                         </div>
-                        <div class="col w-auto bg-white ms-3 me-3 mb-3">
-                            <div class="bg-white fw-bold">
-                                <h3 class="pt-1 ps-1">sales by country</h3>
-                            </div>
-                            <img src="images/pie-chart.svg" alt="pie-chart" class="ps-4 pie-chart-img">
+                        <div class="col bg-white ms-4 ps-4 pt-4">
+                            <div class="fs-4 fw-bold bg-white ms-2">sales by country</div>
+                            <div class="pie-chart-img-div d-flex justify-content-center"> <img src="images/pie-chart.svg" alt="pie-chart" class="pie-chart-img"> </div>
 
-                            <div class="row">
-                                <div class="col ms-3 p-2">
+                            <div class="row mt-1">
+                                <div class="col">
                                     <div class="circle1"></div>united state of america
                                 </div>
-                                <div class="col ms-3 p-2">
+                                <div class="col">
                                     <div class="circle2"></div>canada
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col ms-3 p-2">
+                            <div class="row mt-1 mb-3">
+                                <div class="col">
                                     <div class="circle3"></div>russia
                                 </div>
-                                <div class="col ms-3 p-2">
+                                <div class="col">
                                     <div class="circle4"></div>india
                                 </div>
                             </div>
@@ -169,7 +197,7 @@
                         <div class="col d-flex flex-row-reverse pe-4">view all</div>
                     </div>
 
-                    <div class="row d-flex justify-content-center align-items-center table-responsive">
+                    <div class="row d-flex justify-content-center align-items-center ms-1 table-responsive">
                         <table class="table bg-white">
                             <tr>
                                 <th>invoice</th>
@@ -260,14 +288,15 @@
 
 </body>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
 <script>
-     $('#menubar').click();
-        setTimeout(() => {
-            if($(window).width() < 736){
+    $('#menubar').click();
+    setTimeout(() => {
+        if ($(window).width() < 736) {
             $('#menubar').click();
-        }    
-        }, 500);
+        }
+    }, 500);
 </script>
 
 </html>

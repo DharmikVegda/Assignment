@@ -5,14 +5,26 @@
         font-family: Arial, Helvetica, sans-serif;
 }
 
+.dashboard-container{
+    background-color: #fafafa;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
 .graph-image{
     width: 50vw;
+    min-width: 300px;
+}
+
+.pie-chart-img{
+    width: 15vw;
+    min-width: 150px;
 }
 
 .circle1{
     border-radius: 50%;
     background-color:  #C8242F;
-    padding: 5px;
+    padding: 7px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -20,7 +32,7 @@
 .circle2{
     border-radius: 50%;
     background-color: #A2B86C;
-    padding: 5px;
+    padding: 7px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -28,7 +40,7 @@
 .circle3{
     border-radius: 50%;
     background-color: #F16C20;
-    padding: 5px;
+    padding: 7px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -36,7 +48,7 @@
 .circle4{
     border-radius: 50%;
     background-color: #EBC844;
-    padding: 5px;
+    padding: 7px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -67,11 +79,11 @@ h3{
 }
 
 .sidebar-icon img{
-    width: 35px;
+    width: 20px;
 }
 
 div span{
-    font-size: 1rem;
+    font-size: 12px;
 }
 
 .sidebar-first-row-item{
@@ -83,6 +95,6 @@ div span{
     background-color: rgba(200, 36, 47,.1);
 }
 
-@media screen and (max-width: 355px){
+@media screen and (max-width: 400px){
     .profile-name{ display: none; }
 }

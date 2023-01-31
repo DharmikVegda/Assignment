@@ -1,3 +1,7 @@
+html{
+    background-color: white;
+}
+
 body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +12,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #ebecf0;
+    background-color: #FAFAFA;
     align-items: center;
     top: 50%;
     left: 50%;
@@ -44,6 +48,18 @@ input{
 
 .forgot-password{
     width: 60%;
+}
+
+.forgot-password-text{
+    color: #ADADAD;
+}
+
+#newMember-text{
+    color: #ADADAD;
+}
+
+#newMember-text a{
+    color: red;
 }
 
 .forgot-password a{
