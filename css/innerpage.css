@@ -9,11 +9,15 @@ h3{
     justify-content: center;
 }
 
-i img{
+.main-container{
+    background-color: #FAFAFA;
+}
+
+.sidebar-icon img{
     width: 25px;
 }
 
-div span{
+div #sidebar-text{
     font-size: 12px;
 }
 

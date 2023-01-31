@@ -97,8 +97,8 @@ h3{
     width: 20px;
 }
 
-div span{
-    font-size: 12px;
+div #sidebar-text{
+    font-size: 1rem;
 }
 
 .sidebar-first-row-item{
